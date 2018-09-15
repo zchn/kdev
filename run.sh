@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -it -v .:/workdir zchn/kdev
+docker run -it -v `pwd`:/workdir zchn/kdev
